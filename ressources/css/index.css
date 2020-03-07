@@ -1,0 +1,70 @@
+body {
+    font-family: 'Wendy One', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;      
+    
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+a.blue {
+    color: blue;
+}
+
+.banner {
+    background-color: #ff3c00;    
+    color: white;
+    margin-top: 50px;    
+    text-align: center;   
+    padding: 100px 0; 
+    width: 100%;
+    }
+
+#doreets ul{
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url(../images/dorime-mouse.png);
+    background-size: cover; /*diminui a img p cobrir a área do fundo*/
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; /*arredonda o ícone(div)*/
+    display: inline-block; /*fica na mesma linha do próx elemento*/
+    vertical-align: middle; /*alinhado verticalmente ao meio*/
+}
+
+#small-dorime {
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(1px 1px 5px black); /*img vai ficar flutuante*/
+    
+}
+
+.dorime-section {
+    padding: 20px 50px;    
+    font-weight: 100;
+}
+
+#dorime {
+    font-family: 'Nosifer', cursive;
+    color: #ff3c00;
+    font-size: 100px;    
+}
+
+.bold {
+    font-weight: 900;
+}
